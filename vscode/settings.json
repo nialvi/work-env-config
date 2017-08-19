@@ -1,0 +1,11 @@
+// Поместите параметры в этот файл, чтобы перезаписать параметры по умолчанию.
+{
+    "javascript.validate.enable": false,
+    "window.zoomLevel": 1,
+    "explorer.openEditors.visible": 0,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "typescript.check.tscVersion": false,
+    "workbench.iconTheme": "vscode-icons"
+}

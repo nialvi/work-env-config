@@ -1,0 +1,44 @@
+[user]
+	name = Nikolaev Viktor
+	email = maclauddd@gmail.com
+[core]
+	excludesfile = ~/.gitignore
+
+[color]
+
+	# Use colors in Git commands that are capable of colored output when
+	# outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
+	ui = auto
+
+[color "branch"]
+
+	current = yellow reverse
+	local = yellow
+	remote = green
+
+[color "diff"]
+
+	meta = yellow bold
+	frag = magenta bold # line info
+	old = red # deletions
+	new = green # additions
+
+[color "status"]
+
+	added = green
+	changed = yellow
+	untracked = cyan
+
+[help]
+
+	# Automatically correct and execute mistyped commands
+	autocorrect = 1
+
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
+	type = cat-file -t
+	dump = cat-file -p
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
